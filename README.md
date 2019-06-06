@@ -29,12 +29,14 @@ This application has following functionality implemented
 
 * Search by firstname, lastname, email and position.
 
+![Employee List](Screenshots/EmployeeList.png)
 
 
 ##### Employee Detail
 
 * Displays a detailed view of the employee’s information that are selected from employee list view.
 
+![Employee Detail](Screenshots/EmployeeDetail.png)
 
 
 ### How run and build the application?
