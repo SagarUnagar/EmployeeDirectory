@@ -62,8 +62,8 @@ class EmployeeViewController: UIViewController {
         self.showActivityIndicatorView()
         self.viewModel.fetchAllEmployee { (datasource, error) in
             if error != nil {
-                let err = error as! ErrorResult
-                self.showAlert(titleString: "Error!", messageString: err.localizedDescription)
+                print(error!)
+                self.showAlert(titleString: "Error!", messageString: "Error while fetching data from the server. Please pull to refresh it again.")
                 self.hideActivityIndicatorView()
             } else {
                 self.hideActivityIndicatorView()
