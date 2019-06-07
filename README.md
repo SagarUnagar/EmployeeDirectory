@@ -23,7 +23,7 @@ This application has following functionality implemented
 
 * Error handling and alert using appropriate error message
 
-* Fetching the phone’s built-in contacts and match them against the list of employees. If the employee has a matching contact in the phone (first and last names are a case-insensitive match), the list element should display a button. If user presse that button then app  displays the iOS native Contact detail view.
+* Fetching the phone’s built-in contacts and match them against the list of employees. If the employee has a matching contact in the phone (first and last names are a case-insensitive match), the list element should display a button. If user press that button then app  displays the iOS native Contact detail view.
 
 ###### Non Mandatory
 
@@ -36,7 +36,12 @@ This application has following functionality implemented
 
 * Displays a detailed view of the employee’s information that are selected from employee list view.
 
-![Employee Detail](Screenshots/EmployeeDetail.png)![NativeEmployee Detail](Screenshots/NativeContactDetail.png)
+![Employee Detail](Screenshots/EmployeeDetail.png)
+
+
+* If the employee has a matching contact in the phone then list element displaying a button with contact icon. By clicking on that button, app displays the iOS native contact detail view.
+
+![NativeEmployee Detail](Screenshots/NativeContactDetail.png)
 
 
 ### How run and build the application?
