@@ -15,31 +15,31 @@ This application has following functionality implemented
 
 ###### Mandatory
 
-* Fetching employee list from the server.
+* Fetching employee list from the server
 
-* List of employee are grouped by position. Groups are sorted alphabetically, employees are sorted by last name. Each employee is unique by their full name (first name + last name) and is displayed only once in the list view.
+* List of employee are grouped by position. Groups are sorted alphabetically, employees are sorted by last name. Each employee is unique by their full name (first name + last name) and is displayed only once in the list view
 
 * Pull-to-refresh to update the data from the servers
 
 * Error handling and alert using appropriate error message
 
-* Fetching the phone’s built-in contacts and match them against the list of employees. If the employee has a matching contact in the phone (first and last names are a case-insensitive match), the list element should display a button. If user press that button then app  displays the iOS native Contact detail view.
+* Fetching the phone’s built-in contacts and match them against the list of employees. If the employee has a matching contact in the phone (first and last names are a case-insensitive match), the list element should display a button. If user press that button then app  displays the iOS native Contact detail view
 
 ###### Non Mandatory
 
-* Search by firstname, lastname, email and position.
+* Search by firstname, lastname, email and position
 
 ![Employee List](Screenshots/EmployeeList.png)
 
 
 ##### Employee Detail
 
-* Displays a detailed view of the employee’s information that are selected from employee list view.
+* Displays a detailed view of the employee’s information that are selected from employee list view
 
 ![Employee Detail](Screenshots/EmployeeDetail.png)
 
 
-* If the employee has a matching contact in the phone then list element displaying a button with contact icon. By clicking on that button, app displays the iOS native contact detail view.
+* If the employee has a matching contact in the phone then list element displaying a button with contact icon. By clicking on that button, app displays the iOS native contact detail view
 
 ![NativeEmployee Detail](Screenshots/NativeContactDetail.png)
 
@@ -56,7 +56,7 @@ Clone or download this repository in your local machine and open ****EmployeeDir
 
 ##### MVVM(Model-View-ViewModel)
 
-Choosing app architecture is the most important part of the app development process. A good architecture makes the app more reliable and easy to maintain in the long run. MVVM separates the business logic from the presentation layer so it is easy to solve the complex bugs and issues easily. To read more about MVVM architecture, Please visit [Wikipedia](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel)
+Choosing app architecture is the most important part of the app development process. A good architecture makes the app more reliable and easy to maintain in the long run. MVVM separates the business logic from the presentation layer so it is easy to solve the complex bugs and issues easily. To read more about MVVM architecture, Please visit [Wikipedia](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel).
 
 
 
