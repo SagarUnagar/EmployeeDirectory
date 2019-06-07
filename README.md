@@ -1,7 +1,7 @@
 
 # Employee Directory
 
-![swift](https://img.shields.io/badge/swift-5.0-orange.svg)  ![Xcode](https://img.shields.io/badge/xcode-10.0-green.svg)
+![swift](https://img.shields.io/badge/swift-5.0-orange.svg)  ![Xcode](https://img.shields.io/badge/xcode-10.2.1-green.svg)
 
 
 

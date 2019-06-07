@@ -18,12 +18,18 @@ class NetworkServices {
         case PATCH
     }
     
+    /**
+     Creates the URL request for server call.
+     */
     static func createRequest(method: Method, url: URL) -> URLRequest {
         var request = URLRequest(url: url)
         request.httpMethod = method.rawValue
         return request
     }
     
+    /**
+     This method makes a server call and fetches all the employees.
+     */
     static func fetchEmployees(completion: @escaping ResponseBlock) {
         guard let url = URL(string: "https://tartu-jobapp.aw.ee/employee_list/") else {
             completion(nil, ErrorResult.custom(string: "Invalid URL"))
