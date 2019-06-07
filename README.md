@@ -36,7 +36,7 @@ This application has following functionality implemented
 
 * Displays a detailed view of the employee’s information that are selected from employee list view.
 
-![Employee Detail](Screenshots/EmployeeDetail.png)
+![Employee Detail](Screenshots/EmployeeDetail.png)![NativeEmployee Detail](Screenshots/NativeContactDetail.png)
 
 
 ### How run and build the application?
@@ -51,7 +51,7 @@ Clone or download this repository in your local machine and open ****EmployeeDir
 
 ##### MVVM(Model-View-ViewModel)
 
-Choosing app architecture is the most important part of the app development process. A good architecture makes the app more reliable and easy to maintain in the long run. Here in this application, I choose MVVM architecture because it's more reliable and easy to maintain. MVVM separates the business logic from the presentation layer so it is easy to solve the complex bugs and issues easily.
+Choosing app architecture is the most important part of the app development process. A good architecture makes the app more reliable and easy to maintain in the long run. MVVM separates the business logic from the presentation layer so it is easy to solve the complex bugs and issues easily. To read more about MVVM architecture, Please visit [Wikipedia](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel)
 
 
 
